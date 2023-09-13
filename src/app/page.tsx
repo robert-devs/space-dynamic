@@ -13,7 +13,7 @@ export default function Home() {
       <main className="">
 
         {/* Hero section */}
-        <div className="relative h-[508px] md:h-[780px] z-20 bg-[url(/hero-bg-2.png)] bg-top bg-bottom_ bg-cover bg-no-repeat">
+        <div className="relative h-[508px] md:h-[1000px] z-20 bg-[url(/hero-bg-2.png)] bg-top bg-bottom_ bg-cover bg-no-repeat">
           <div className="h-full bg-black/50">
             <div className="max-w-[1420px] h-full flex items-center mx-auto p-2">
               <div className="md:px-16 "> 
@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="w-full mt-8 sm:w-[425px] h-[64px] flex items-center p-2 bg-secondary-blue  rounded-full">
                   <input
                     type="text"
-                    className="flex-1 w-full h-full border-none bg-secondary-blue rounded-full text-white placeholder:text-[16px] placeholder:opacity-40 outline-none px-4"
+                    className="flex-1 w-full h-full border-none bg-secondary-blue rounded-full  placeholder:text-[16px] placeholder:opacity-100 outline-none px-4 placeholder:text-white"
                     placeholder="Type your email"
                   />
                   <Link href={"/#early-access"} className="block h-full">

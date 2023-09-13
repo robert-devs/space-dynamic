@@ -69,17 +69,17 @@ const Header = () => {
 						</Link>
 					</li>
 					<li onClick={closeSidebar}>
-						<Link href="/#features" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#features" })}>
+						<Link href="/#Services" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#Services" })}>
 							Services
 						</Link>
 					</li>
 					<li onClick={closeSidebar}>
-						<Link href="/#our-words" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#our-words" })}>
-							Our Word
+						<Link href="/#message" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#message" })}>
+							Message Us
 						</Link>
 					</li>
 					<li onClick={closeSidebar}>
-						<Link href="/#vendors" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#vendors" })}>
+						<Link href="/#Portfolio" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#Portfolio" })}>
 							Portfolio
 						</Link>
 					</li>
@@ -96,7 +96,7 @@ const Header = () => {
 
 					<li onClick={closeSidebar}> <button></button>
 						<Link href="/vendor-registration"  >
-							<button className="md:hidden bg-primary-orange text-white rounded-full px-6 text-[20px] py-2 flex justify-center items-center flex-col">Become a Vendor</button>
+							<button className="md:hidden bg-primary-orange text-white rounded-full px-6 text-[20px] py-2 flex justify-center items-center flex-col">Contact Now</button>
 						</Link>
 					</li>
 				</ul>
