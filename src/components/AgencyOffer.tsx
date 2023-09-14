@@ -27,8 +27,8 @@ const AgencyOffer = () => {
                         </HoverCardTrigger>
                         <HoverCardContent>
                             <div className="flex flex-col">
-                                <h1 className='text-[18px] font-bold py-3'>Website Reporting</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur <br /> adipisicing elit. Quos, exercitationem.</p>
+                                <h1 className='text-[18px] font-[900] py-3 text-white'>Website Reporting</h1>
+                                <p className="font-bold text-gray-200">Lorem ipsum dolor, sit amet consectetur <br /> adipisicing elit. Quos, exercitationem.</p>
                             </div>
                         </HoverCardContent>
                     </HoverCard>

@@ -8,6 +8,7 @@ import { AccentButton } from "@/components/ui/accent-button";
 import InOurWords from "@/components/OurWorld";
 import OurLatest from "@/components/OurLatest";
 import AgencyOffer from "@/components/AgencyOffer";
+import ContactUs from "@/components/ContactUs";
 
 
 export default function Home() {
@@ -71,6 +72,8 @@ export default function Home() {
         <AgencyOffer  />
 
       <OurLatest  />
+
+      <ContactUs  />
     </MainLayout>
   );
 }
