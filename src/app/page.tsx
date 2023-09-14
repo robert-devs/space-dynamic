@@ -5,6 +5,8 @@ import phone from "@/assets/images/iphone13.png";
 import Image from "next/image";
 import Link from "next/link";
 import { AccentButton } from "@/components/ui/accent-button";
+import InOurWords from "@/components/OurWorld";
+import OurLatest from "@/components/OurLatest";
 
 
 export default function Home() {
@@ -13,15 +15,15 @@ export default function Home() {
       <main className="">
 
         {/* Hero section */}
-        <div className="relative h-[508px] md:h-[1000px] z-20 bg-[url(/hero-bg-2.png)] bg-top bg-bottom_ bg-cover bg-no-repeat">
-          <div className="h-full bg-black/50">
+        <div className="relative h-[508px] md:h-[1000px] z-20  bg-white bg-top ">
+          <div className="h-full ">
             <div className="max-w-[1420px] h-full flex items-center mx-auto p-2">
               <div className="md:px-16 "> 
                 <p className="uppercase text-primary-orange font-bold text-[20px]">welcome to space dynamic</p>
-                <h1 className="hero-text-shadow text-[36px] md:text-[72px] font-[700] leading-[56px] md:leading-[80px] tracking-[0.2px]  text-white">
+                <h1 className="text-[36px] md:text-[72px] font-[700] leading-[56px] md:leading-[80px] tracking-[0.2px]  text-black ">
                   We make <span className="text-secondary-blue">Digital <br /> Ideal & <span className="text-primary-orange">SEO</span></span> Marketing
                 </h1>
-                <p className="text-[16px] md:text-[24px] font-[700] leading-[25.6px] md:leading-[36px] tracking-[0.2px] max-w-[263px] sm:max-w-[564px] text-white my-4" >
+                <p className="text-[16px] md:text-[24px] font-[700] leading-[25.6px] md:leading-[36px] tracking-[0.2px] max-w-[263px] sm:max-w-[564px] text-black  my-4" >
                   Your Gateway to a World of Delicious African Cuisine, Coming Soon.
                 </p>
 
@@ -37,9 +39,11 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                    src={phone}
+                    src="/hero-image.png"
                     alt="phone"
-                    className="object-cover  w-[372px] md:w-[867px] h-[297px] md:h-[615px]"
+                    width={200}
+                    height={200}
+                    className="object-contain  w-[372px] md:w-[550px] h-[297px] md:h-[615px]"
                 />
             </div>
 
@@ -61,6 +65,9 @@ export default function Home() {
           </svg>
         </div>
       </main> 
+      <InOurWords  />
+
+      <OurLatest  />
     </MainLayout>
   );
 }

@@ -40,7 +40,7 @@ const Header = () => {
 	}, []);
 
 	return (
-		<div className="fixed z-[100] bg-white right-0 left-0 top-0 shadow">
+		<div className="fixed opacity-100 !z-[100] bg-[#fafafa] right-0 left-0 top-0 shadow">
 			<div className="flex items-center  justify-between max-w-[1420px] mx-auto w-full px-4 py-3 text-2xl">
 				<Link href="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
 					<Image

@@ -1,0 +1,24 @@
+
+[
+	{
+		"image": "/service-icon-01.png",
+		"heading": "Limited Restaurant Options",
+		"summary": "Hoppn focuses on in-store pickup and 3PL shipping options. "
+	},
+	{
+		"image": "/service-icon-02.png",
+		"heading": "Delivery Availability",
+		"summary": "Hoppn has partnered with a diverse range of African restaurants, "
+
+    },
+	{
+		"image": "/service-icon-03.png",
+		"heading": "Authenticity of African Cuisine",
+		"summary": "Hoppn has partnered with a diverse range of African restaurants, "
+	},
+	{
+		"image": "/service-icon-04.png",
+		"heading": "Payment Security",
+		"summary": "We've integrated Stripe, a secure and trusted payment gateway, to ensure that all transactions"
+	}
+]
