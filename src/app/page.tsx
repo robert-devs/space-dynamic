@@ -7,6 +7,7 @@ import Link from "next/link";
 import { AccentButton } from "@/components/ui/accent-button";
 import InOurWords from "@/components/OurWorld";
 import OurLatest from "@/components/OurLatest";
+import AgencyOffer from "@/components/AgencyOffer";
 
 
 export default function Home() {
@@ -66,6 +67,8 @@ export default function Home() {
         </div>
       </main> 
       <InOurWords  />
+
+        <AgencyOffer  />
 
       <OurLatest  />
     </MainLayout>
