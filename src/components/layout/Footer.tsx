@@ -6,7 +6,7 @@ import { AccentButton } from "../ui/accent-button";
 
 const Footer = () => {
 	return (
-		<div className="bg-[#262239]">
+		<div className="bg-[#262239] mt-10">
 			<div className="max-w-[1420px] py-[36px] mx-auto p-4 relative">
 
 				{/* Footer top columns */}
@@ -28,10 +28,10 @@ const Footer = () => {
 									</clipPath>
 								</defs>
 							</svg>
-							<span>info@hoppn.app</span>
+							<span>info@SpaceDynamic.app</span>
 						</p>
 
-						<p className="flex items-center gap-4  font-[700] leading-[22.4px] gap-4">
+						<p className="flex items-center   font-[700] leading-[22.4px] gap-4">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 								<g clipPath="url(#clip0_541_9242)">
 									<path d="M20.4853 3.51471C18.2188 1.24823 15.2053 0 12 0C8.79474 0 5.78119 1.24823 3.51471 3.51471C1.24823 5.78137 0 8.79474 0 12C0 15.2053 1.24823 18.2188 3.51471 20.4853C5.78119 22.7518 8.79474 24 12 24C15.2053 24 18.2186 22.7518 20.4853 20.4853C22.7518 18.2188 24 15.2054 24 12C24 8.79474 22.7518 5.78119 20.4853 3.51471ZM18.6389 17.0063C18.6383 17.0068 18.6378 17.0074 18.6372 17.0079L18.1648 17.4803C17.7675 17.8777 17.4371 18.208 17.425 18.2199C16.8267 18.8183 15.9765 19.136 14.9687 19.136C12.9311 19.136 10.3625 17.8328 8.26483 15.7354C6.76208 14.2326 5.65814 12.4955 5.15643 10.8441C4.60858 9.04083 4.83105 7.5238 5.78284 6.5722C5.79254 6.5625 6.04138 6.31348 6.36566 5.98938L6.98199 5.37286C6.98712 5.36774 6.99207 5.36261 6.99738 5.35748C7.37457 4.98303 7.87482 4.77686 8.40656 4.77686C8.94012 4.77686 9.44202 4.9845 9.81976 5.36133C9.82214 5.36371 9.82452 5.36627 9.8269 5.36865L11.1691 6.71082C11.547 7.08875 11.755 7.591 11.755 8.12531C11.755 8.65668 11.5494 9.15619 11.1757 9.5332C11.1731 9.53577 11.1705 9.53833 11.1678 9.54108L10.4537 10.2554L13.7433 13.545L14.4575 12.8306C14.46 12.828 14.4626 12.8254 14.4653 12.8229C14.8423 12.4493 15.3422 12.2435 15.8732 12.2435C16.4075 12.2435 16.9098 12.4517 17.2875 12.8295L18.6317 14.1735C18.6335 14.1753 18.6356 14.1773 18.6372 14.179C18.6412 14.183 18.6451 14.1868 18.6489 14.1909C18.6535 14.1956 18.6583 14.2009 18.663 14.2062C19.4156 14.9872 19.4073 16.236 18.6389 17.0063Z" fill="white" />
@@ -53,6 +53,7 @@ const Footer = () => {
 							<p className="text-white leading-[22.6px] tracking-[0.2px]">Dallas</p>
 							<p className="text-white leading-[22.6px] tracking-[0.2px]">Minneapolis/St. Paul</p>
 							<p className="text-white leading-[22.6px] tracking-[0.2px]">Baltimore</p>
+							<p className="text-white leading-[22.6px] tracking-[0.2px]">Chicago</p>
 						</div>
 					</div>
 
@@ -74,7 +75,7 @@ const Footer = () => {
 
 				<div className="flex flex-col-reverse justify-between gap-6 text-white md:flex-row">
 					<p className="text-center md:text-left ">
-						2023 © Hoppn Technologies LLC/All Rights Reserved.
+						2023 © Space Dynamic LLC/All Rights Reserved.
 					</p>
 
 					<div className="flex justify-center items-center gap-3">

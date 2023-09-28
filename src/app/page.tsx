@@ -15,10 +15,10 @@ export default function Home() {
       <main className="">
 
         {/* Hero section */}
-        <div className="relative h-[508px] md:h-[1000px] z-20  bg-white bg-top ">
+        <div className="relative h-[480px] md:h-[700px] z-20  bg-white bg-top ">
           <div className="h-full ">
-            <div className="max-w-[1420px] h-full flex items-center mx-auto p-2">
-              <div className="md:px-16 "> 
+            <div className="max-w-[1420px] h-full flex flex-col md:flex-row  items-center mx-auto p-2">
+              <div className="md:px-16 px-8 "> 
                 <p className="uppercase text-primary-orange font-bold text-[20px]">welcome to space dynamic</p>
                 <h1 className="text-[36px] md:text-[72px] font-[700] leading-[56px] md:leading-[80px] tracking-[0.2px]  text-black ">
                   We make <span className="text-secondary-blue">Digital <br /> Ideal & <span className="text-primary-orange">SEO</span></span> Marketing
@@ -38,13 +38,15 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <Image
-                    src="/hero-image.png"
-                    alt="phone"
-                    width={200}
-                    height={200}
-                    className="object-contain  w-[372px] md:w-[550px] h-[297px] md:h-[615px]"
-                />
+              <div className="mt5">
+                <Image
+                        src="/hero-image.png"
+                        alt="phone"
+                        width={200}
+                        height={200}
+                        className="object-contain  w-[372px] md:w-[550px] h-[297px] md:h-[615px]"
+                    />
+              </div>
             </div>
 
           </div>

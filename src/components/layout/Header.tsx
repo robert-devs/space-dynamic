@@ -68,11 +68,7 @@ const Header = () => {
 							Home
 						</Link>
 					</li>
-					<li onClick={closeSidebar}>
-						<Link href="/#Services" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#Services" })}>
-							Services
-						</Link>
-					</li>
+					
 					<li onClick={closeSidebar}>
 						<Link href="/#message" className={cn("leading-[14px] text-center font-bold text-[14px]", { "text-primary-orange": pathname === "/" && hashKey === "#message" })}>
 							Message Us
