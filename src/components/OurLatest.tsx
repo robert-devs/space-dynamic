@@ -1,3 +1,5 @@
+"use clientSide"
+
 import React from 'react'
 import Image from "next/image";
 import { File,CalendarDays,Users2  } from 'lucide-react';

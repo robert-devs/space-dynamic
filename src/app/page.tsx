@@ -1,14 +1,12 @@
 
 import MainLayout from "@/components/layout";
-import phone from "@/assets/images/iphone13.png";
-
-import Image from "next/image";
-import Link from "next/link";
-import { AccentButton } from "@/components/ui/accent-button";
-import InOurWords from "@/components/OurWorld";
-import OurLatest from "@/components/OurLatest";
 import AgencyOffer from "@/components/AgencyOffer";
 import ContactUs from "@/components/ContactUs";
+import OurLatest from "@/components/OurLatest";
+import InOurWords from "@/components/OurWorld";
+import { AccentButton } from "@/components/ui/accent-button";
+import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -67,13 +65,14 @@ export default function Home() {
           </svg>
         </div>
       </main> 
-      <InOurWords  />
+    <InOurWords  />
 
-        <AgencyOffer  />
+    <AgencyOffer  />
 
-      <OurLatest  />
+    <OurLatest  />
 
-      <ContactUs  />
+    <ContactUs  />
+
     </MainLayout>
   );
 }

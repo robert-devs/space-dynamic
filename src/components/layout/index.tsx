@@ -10,9 +10,9 @@ const MainLayout = ({ children }: IProps) => {
 	return (
 		<>
 			<Header />
-			<main className="mt-[72px]">
-				{children}
-			</main>
+                <main className="mt-[72px]">
+                    {children}
+                </main>
 			<Footer />
 		</>
 	);
